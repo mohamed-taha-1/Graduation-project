@@ -28,9 +28,9 @@ function App() {
         <Stack.Screen name="Home" component={Index}  options={{
           title: 'My Home',
           headerStyle: {
-            backgroundColor: '#015B88',
+            backgroundColor: '#2d5986',
           },
-          headerTintColor: '#fff',
+          headerTintColor: '#ffd699',
           headerTitleStyle: {
             fontWeight: 'bold',
           },
@@ -38,9 +38,18 @@ function App() {
         <Stack.Screen name="Gallary" component={Gallary}  options={{
           title: 'Gallary',
           headerStyle: {
-            backgroundColor: '#015B88',
+            backgroundColor: '#2d5986'
+            // '#00aaff'  ,
+            // '#004d66',
+            // '#0d0d0d'=> black
+            // '#F4B41A' 
+            // '#015B88',
           },
-          headerTintColor: '#fff',
+          headerTintColor:'#ffd699',
+          // '#ffaa80',
+          // '#ffa366',
+          // '#ff6600', => ornage dark 
+          // '#143D59',
           headerTitleStyle: {
             fontWeight: 'bold',
           },
@@ -48,9 +57,9 @@ function App() {
         <Stack.Screen name="Camera " component={Camera}  options={{
           title: 'Camera',
           headerStyle: {
-            backgroundColor: '#015B88',
+            backgroundColor: '#2d5986',
           },
-          headerTintColor: '#fff',
+          headerTintColor: '#ffd699',
           headerTitleStyle: {
             fontWeight: 'bold',
           },
